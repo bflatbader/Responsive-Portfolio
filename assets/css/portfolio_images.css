@@ -1,0 +1,23 @@
+.gallery {
+    position: relative;
+    padding: 10px 20px 10px 0px;
+    clear: both;
+    display: inline-block;
+    z-index: 0;
+}
+
+.labels {
+    position: absolute;
+    margin: 0;
+    padding: 10px 0px;
+    top: 160px;
+    background-color: #4aaaa5;
+    color: #fff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    width: 200px;
+}
+
+.gallery:hover {
+    filter: grayscale(100%);
+}

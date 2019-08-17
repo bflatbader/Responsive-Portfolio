@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+
+li {
+  float: right;
+}
+
+.listitem {
+  position: relative;
+}
+
+.listitem:after {
+  content: '';
+  height: 20%;
+  width: 1px;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-color: #ddd;
+}
+  
+li a {
+  display: block;
+  color: #777777;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0px 15px;
+}
+
+li a:hover {
+  color: #EEC584;
+}
