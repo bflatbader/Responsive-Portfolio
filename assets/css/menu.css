@@ -34,3 +34,21 @@ li a {
 li a:hover {
   color: #EEC584;
 }
+
+@media only screen and (max-width: 640px) {
+
+  ul {
+    margin-right: 185px;
+  }
+
+  .listitem:after {
+    content: '';
+    height: 25%;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: #ddd;
+  }
+
+}
